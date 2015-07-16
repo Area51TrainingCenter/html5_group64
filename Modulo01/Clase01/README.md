@@ -12,4 +12,4 @@ Las etiquetas son los elementos basicos de una pagina web, dichas elementos vien
 <p>Esto es un texto, y esta contenido en una etiqueta HTML.</p>
 ```
 
-La **<p>** es la apertura de la etiqueta y la **</p>** indica el cierre de la misma, notese que la etiqueta de cierra siempre lleva un "/".
+La `<p>` es la apertura de la etiqueta y la `</p>` indica el cierre de la misma, notese que la etiqueta de cierra siempre lleva un "/".
