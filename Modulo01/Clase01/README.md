@@ -1,13 +1,15 @@
-# Clase 01
+# HTML5 Grupo 64
 
-#### <i class="icon-folder-open"></i> Introduccion a HTML
+## Modulo 01 - HTML5
 
-En esta veremos como es que se crean las etiquetas en HTML, 
-asi mismo se vera como se estructura una pagina web y cuales 
-son sus principales partes.
+### HTML
 
-----------
+#### Clase 01 - Etiquetas HTML
 
-#### <i class="icon-file"></i> Recursos:
+Las etiquetas son los elementos basicos de una pagina web, dichas elementos vienen en pares:
 
-[Synchronization](#synchronization)
+```html
+<p>Esto es un texto, y esta contenido en una etiqueta HTML.</p>
+```
+
+La **<p>** es la apertura de la etiqueta y la **</p>** indica el cierre de la misma, notese que la etiqueta de cierra siempre lleva un "/".
