@@ -37,9 +37,9 @@ Las paginas HTML son nada mas y nada menos que un conjunto de etiquetas que fina
 </html>
 ```
 
-Inicialmente una página web consta de 2 grandes facciones, la primera es **<head> ... </head>**, en esta gran sección se guardan configuraciones de la página y accesos a recursos externos que la página pueda necesitar *(hoja de estilos, archivos javascript, etc.)* tambien se define el titulo de la pagina usando la siguiente etiqueta **<title> ... </title>**
+Inicialmente una página web consta de 2 grandes facciones, la primera es `<head> </head>`, en esta gran sección se guardan configuraciones de la página y accesos a recursos externos que la página pueda necesitar *(hoja de estilos, archivos javascript, etc.)* tambien se define el titulo de la pagina usando la siguiente etiqueta `<title></title>`
 
-La segunda gran facción es **<body> </body>** y es en esta facción donde se define todo lo que se verá a traves del navegador web. Esta zona contendrá en principio todos los contenidos *(titulos, textos, listados, imagenes, etc)*
+La segunda gran facción es `<body> </body>` y es en esta facción donde se define todo lo que se verá a traves del navegador web. Esta zona contendrá en principio todos los contenidos *(titulos, textos, listados, imagenes, etc)*
 
 ======
 
