@@ -2,9 +2,9 @@
 
 ## Modulo 01 - HTML5
 
-### HTML
+### HTML - Clase 01
 
-#### Clase 01 - Etiquetas HTML
+#### Etiquetas HTML
 
 Las etiquetas son los elementos básicos de una pagina web, dichas elementos vienen en pares:
 
@@ -12,13 +12,13 @@ Las etiquetas son los elementos básicos de una pagina web, dichas elementos vie
 <p>Esto es un texto, y esta contenido en una etiqueta HTML.</p>
 ```
 
-La `<p>` es la apertura de la etiqueta y la `</p>` indica el cierre de la misma, notese que la etiqueta de cierra siempre lleva un "/".
+La `<p>` es la apertura de la etiqueta y la `</p>` indica el cierre de la misma, notese que la etiqueta de cierre siempre lleva un "/".
 
 ======
 
 #### Clase 01 - Pagina HTML
 
-Las paginas HTML son nada mas y nada menos que un conjunto de etiquetas que finalmente son interpretadas por un navegador web, la estructura basica de una página web se presenta de la siguinte manera:
+Las paginas HTML son nada más y nada menos que un conjunto de etiquetas que finalmente son interpretadas por un navegador web, la estructura básica de una página web se presenta de la siguinte manera:
 
 ```html
 <!doctype html>
@@ -26,7 +26,7 @@ Las paginas HTML son nada mas y nada menos que un conjunto de etiquetas que fina
   <head>
     <meta charset="utf-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <title>My First Webpage</title>
+    <title>Mi primera pagina</title>
     <link href="style.css" type="text/css" rel="stylesheet" />
     <script src="app.js" type="text/javascript"></script>
   </head>
@@ -43,7 +43,7 @@ La segunda gran facción es `<body> </body>` y es en esta facción donde se defi
 
 ======
 
-#### Clase 01 - Tipos de Etiqueta HTML
+#### Tipos de Etiqueta HTML
 
 En principio existen 2  tipos de etiqueta HTML, la primera es una etiqueta *par* quiero decir que tiene 2 partes, su apertura `<p>` y cierre `</p>`. El segundo tipo de etiqueta es del tipo *individual* `<img />` y como se puede ver no tiene par.
 
@@ -59,27 +59,6 @@ En principio existen 2  tipos de etiqueta HTML, la primera es una etiqueta *par*
 
 ======
 
-#### Clase 01 - Atributos en Etiquetas HTML
-
-Dentro de las etiquetas HTML existe un concepto llamado atributos, que basicamente son parametros adicionales que las etiquetas HTML aceptan para cumplir ciertos propositos o configuraciones.
-
-Estos atributos consta de 2 partes, la primera es el nombre del atributo y la segunda es el valor del atributo, tal como se muestra en el siguiente ejemplo:
-
-```html
-<!-- Un solo atributo -->
-<p class="texto">Esto es un texto, y esta contenido en una etiqueta HTML par.</p>
-
-<!-- Multiples atributos -->
-<img class="foto" src="imagen.jpg" alt="foto de un perro" width="300" height="280" />
-```
-
-Se considera como nombre de atributos *class, src, alt, width, y height* y como valores *foto, imagen.jpg, foto de un perro, 300, y 280*, todos los valores de los atributos deben estar entre comillas *"foto de un perro"* y entre el nombre y el valor del atributo debe haber un signo **=**
-
-Una etiqueta HTML puede recibir multiples atributos.
-
-======
-
 ### Referencias
 
 [HTML 5 - Primer Contacto](http://slides.com/victor_malca/html-first-contact)
-[HTML 5 - Manejo de atributos](http://slides.com/victor_malca/html-using-attributes)
