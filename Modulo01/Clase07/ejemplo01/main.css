@@ -1,0 +1,36 @@
+.link-vermas
+{
+	background-color: lightblue;
+	border: 0;
+	color: black;
+	float: left;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+.link-vermas:hover
+{
+	background-color: blue;
+	color: white;
+}
+
+
+.btn-vermas
+{
+	background-color: lightblue;
+	border: 0;
+	color: black;
+	float: left;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+.btn-vermas:hover
+{
+	background-color: blue;
+	color: white;
+}

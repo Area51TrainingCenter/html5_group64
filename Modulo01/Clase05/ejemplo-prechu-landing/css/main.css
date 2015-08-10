@@ -1,0 +1,54 @@
+html,
+body
+{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*
+ * HEADER
+ */
+.main-header
+{
+    background-color: red;
+    display: block;
+    margin: 0px auto;
+    width: 970px;
+}
+
+/*
+ * CONTENT
+ */
+.main-content
+{
+    background-color: orange;
+    display: block;
+}
+
+.sub-content-full
+{
+    background-color: brown;
+    display: block;
+    width: 100%;
+}
+
+.sub-content
+{
+    background-color: green;
+    color: white;
+    display: block;
+    margin: 0px auto;
+    width: 970px;
+}
+
+/*
+ * FOOTER
+ */
+.main-footer
+{
+    background-color: purple;
+    display: block;
+    margin: 0px auto;
+    width: 970px;
+}

@@ -1,0 +1,65 @@
+html,
+body
+{
+	border: 0px;
+	font-family: sans-serif;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.grid
+{
+	display: block;
+	height: 620px;
+	width: 840px;
+}
+	.grid-item
+	{
+		display:inline;
+		float: left;
+		height: 290px;
+		margin: 10px;
+		position: relative;
+		width: 260px;
+	}
+		.grid-item-pic
+		{
+			display: block;
+			height: 290px;
+			overflow: hidden;
+			width: 260px;
+		}
+
+		.grid-item-header
+		{
+			background-color: black;
+			display: none;
+			height: 70px;
+			padding: 10px;
+		}
+			.grid-item-header a
+			{
+				color: white;
+				text-decoration: none;
+			}
+			.grid-item-header h4
+			{
+				margin: 0;
+			}
+			.grid-item-header h3
+			{
+				margin: 0;
+			}
+
+
+		.grid-item:hover .grid-item-header
+		{
+			background-color: rgba(0,0,0,0.3);
+			display: block;
+			height: 270px;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 240px;
+		}

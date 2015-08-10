@@ -1,0 +1,57 @@
+html,
+body
+{
+	border: 0;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+.grid
+{
+	display: block;
+	height: 620px;
+	width: 840px;
+}
+
+	.grid-item
+	{
+		display: inline;
+		float: left;
+		height: 290px;
+		margin: 10px;
+		width: 260px;
+	}
+
+		.grid-item-pic
+		{
+			display: block;
+			height: 200px;
+			overflow: hidden;
+			width: 260px;
+		}
+
+		.grid-item-header
+		{
+			background-color: black;
+			display: block;
+			height: 70px;
+			padding: 10px;
+		}
+
+			.grid-item-header a
+			{
+				color: white;
+				text-decoration: none;
+			}
+
+			.grid-item-header h4
+			{
+				margin: 0;
+			}
+
+			.grid-item-header h3
+			{
+				margin: 0;
+			}

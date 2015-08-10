@@ -1,0 +1,50 @@
+body
+{
+	font-family: Arial, sans-serif;
+}
+
+.menu-v
+{
+	display: block;
+	width: 280px;
+}
+
+	.section-block
+	{
+		display: block;
+		margin-bottom: 15px;
+	}
+
+	.section-block:hover .section-block-header
+	{
+		background-color: blue;
+	}
+
+	.section-block:hover .section-block-content
+	{
+		display: block;
+	}
+
+		.section-block-header
+		{
+			background-color: purple;
+			color: white;
+			display: block;
+			padding: 10px;
+		}
+
+			.section-block-header h3
+			{
+				display: inline;
+			}
+
+			.section-block-header span
+			{
+				display: inline;
+				float: right;
+			}
+
+		.section-block-content
+		{
+			display: none;
+		}
